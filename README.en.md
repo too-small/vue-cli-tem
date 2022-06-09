@@ -1,7 +1,7 @@
-# vue-cli-tem
+# webSearch
 
 #### Description
-脚手架生成模板
+搜索demo, 仿百度
 
 #### Software Architecture
 Software architecture description

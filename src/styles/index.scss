@@ -1,0 +1,77 @@
+@import "base.scss";
+// 字体粗细
+.font-400 {
+    font-weight: 400;
+}
+.font-b {
+    font-weight: bold;
+}
+// 文字样式
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+
+// 手型
+.cpointer {
+    cursor: pointer;
+}
+
+// flex相关
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-col {
+    flex-direction: column;
+}
+.align-center {
+    align-items: center;
+}
+.justify-bet {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.flex-1 {
+    flex: 1;
+}
+
+// 文字省略
+.ellipsis-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.ellipsis-1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+// position
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.w100-h100 {
+    width: 100%;
+    height: 100%;
+}

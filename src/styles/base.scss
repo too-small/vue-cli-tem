@@ -1,0 +1,47 @@
+//字体大小
+@for $i from 12 through 50 {
+    .fs#{$i} {
+        font-size: 1px * $i;
+    }
+}
+
+// 圆角
+@for $i from 0 through 20 {
+    .brs#{$i} {
+        border-radius: 1px * $i !important;
+    }
+}
+
+// 所有的padding.margin, 到40应该够了
+@for $i from 0 through 40 {
+    .p#{$i} {
+        padding: 1px * $i;
+    }
+    .pl#{$i} {
+        padding-left: 1px * $i !important;
+    }
+    .pr#{$i} {
+        padding-right: 1px * $i !important;
+    }
+    .pt#{$i} {
+        padding-top: 1px * $i !important;
+    }
+    .pb#{$i} {
+        padding-bottom: 1px * $i !important;
+    }
+    .m#{$i} {
+        margin: 1px * $i;
+    }
+    .ml#{$i} {
+        margin-left: 1px * $i !important;
+    }
+    .mr#{$i} {
+        margin-right: 1px * $i !important;
+    }
+    .mt#{$i} {
+        margin-top: 1px * $i !important;
+    }
+    .mb#{$i} {
+        margin-bottom: 1px * $i !important;
+    }
+}
