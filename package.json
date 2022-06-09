@@ -1,6 +1,8 @@
 {
-    "name": "bnc-vue-cli",
+    "name": "{{name}}",
     "version": "1.0.0",
+    "description": "{{description}}",
+    "author": "{{author}}",
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
